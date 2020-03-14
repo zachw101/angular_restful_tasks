@@ -22,9 +22,4 @@ require('./server/config/mongoose');
 require('./server/config/routes')(app);
 
 
-
-
-
-
-
 app.listen(7077, () => console.log("listening on port 7077"));

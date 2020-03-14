@@ -44,7 +44,7 @@ module.exports = {
                 .then(newTask => {
                     res.json({ newTask: newTask });
                     console.log("creating new task");
-                    console.log(data);
+                    console.log(newTask);
                 })
                 .catch((err) => {
                     console.log("something went wrong");
